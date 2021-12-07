@@ -11,10 +11,13 @@ const Header: FunctionalComponent = () => {
                     Home
                 </Link>
                 <Link activeClassName={style.active} href="/sketch/1">
-                    sketch1
+                    My first p5
                 </Link>
                 <Link activeClassName={style.active} href="/sketch/2">
                     Quicksort
+                </Link>
+                <Link activeClassName={style.active} href="/sketch/3">
+                    Bubble
                 </Link>
                 {/* <Link activeClassName={style.active} href="/profile">
                     Me

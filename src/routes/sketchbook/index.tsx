@@ -4,6 +4,7 @@ import style from './style.css';
 import P5Wrapper from "../../components/p5wrapper/p5wrapper";
 import sketch1 from "../../components/sketches/sketch1";
 import quicksort from "../../components/sketches/quicksort";
+import bubble from "../../components/sketches/bubble";
 
 interface Props {
   item_id: string;
@@ -32,6 +33,13 @@ const Book: FunctionalComponent<Props> = (props: Props) => {
         setTitle("Quicksort")
         setDescription("quicksort animation")
         setItem(() => quicksort);
+        break;
+      }
+      case "3": {
+        removeCanvases()
+        setTitle("Bubble")
+        setDescription("a bubble animation")
+        setItem(() => bubble);
         break;
       }
       default: {
