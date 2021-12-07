@@ -1,4 +1,3 @@
-
 const sketch = (p: any) => {
   p.setup = () => {
     p.createCanvas(300, 300);

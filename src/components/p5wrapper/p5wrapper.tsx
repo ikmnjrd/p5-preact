@@ -14,7 +14,7 @@ const P5Wrapper: FunctionalComponent<Props> = (props) => {
     setP5(new _p5(props.sketch, wrapper.current));
   }, [props.sketch]);
 
-  return <div ref={wrapper} />;
+  return <div ref={wrapper} id="canvas_area"/>;
 }
 
 export default P5Wrapper;
