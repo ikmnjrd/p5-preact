@@ -14,7 +14,7 @@ type Bubble = {
 
 const sketch = (p: any) => {
   p.setup = () => {
-    p.createCanvas(p.windowWidth -40, p.windowHeight -200);
+    p.createCanvas(p.windowWidth -40, p.windowHeight -250);
   };
   /** フレームごとの描画処理 */
   p.draw = () => {

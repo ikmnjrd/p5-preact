@@ -3,7 +3,7 @@ p5をpreact-cliから作成したテンプレートに乗せてみた。ビル�
 
 ## demo
 
-![demo](https://user-images.githubusercontent.com/40803799/145072506-22ed5f34-0bde-4ffd-87d0-389215432a93.gif)
+![demo](https://user-images.githubusercontent.com/40803799/145239467-8d292b1a-b97d-4df3-83a1-c33728cc99ec.gif)
 
 ## 主なディレクトリ
 `src/components/p5wrapper` ラッパー

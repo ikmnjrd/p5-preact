@@ -1,6 +1,7 @@
 import { FunctionalComponent, h } from 'preact';
 import { useState, useEffect } from 'preact/hooks';
 import style from './style.css';
+import SketchList from '../../components/sketchlist';
 import P5Wrapper from "../../components/p5wrapper/p5wrapper";
 import sketch1 from "../../components/sketches/sketch1";
 import quicksort from "../../components/sketches/quicksort";
@@ -57,6 +58,7 @@ const Book: FunctionalComponent<Props> = (props: Props) => {
 
   return (
     <div class={style.book}>
+      <SketchList />
       <h1>Title: {title}</h1>
       <p>description: {description}</p>
       <P5Wrapper sketch={item} />

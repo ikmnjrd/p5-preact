@@ -1,0 +1,23 @@
+.div {
+	padding: 10px 0;
+}
+.div a {
+	height: 1.5rem;
+	line-height: 1.5rem;
+	padding: 0 15px;
+	min-width: 50px;
+	text-align: center;
+	background: rgba(255,255,255,0);
+	text-decoration: none;
+	will-change: background-color;
+}
+
+.div a:hover,
+.div a:active {
+	color: rgba(0, 0, 0, 0.2)
+	/* background: rgba(0,0,0,0.2); */
+}
+
+.div a.active {
+	color: rgba(0,0,0,0.4);
+}
